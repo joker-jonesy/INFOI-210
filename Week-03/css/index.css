@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+}
+
+body {
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin: 0 8px;
+}
+
+.navAchor{
+
+}
+
+.tiny{
+
+}
+
+nav {
+    background-color: blue;
+    padding: 8px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 80px;
+}
+
