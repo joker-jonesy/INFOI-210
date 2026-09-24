@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+}
+
+html, body{
+    height: 100vh;
+}
+
+#display{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width:60px;
+    border-radius: 60px;
+    background-color: #00118a;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 20px;
+}
+
+#page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:300px;
+    width:300px;
+    border-radius: 50px;
+    box-shadow: rgba(0 0 0 /0.39) 1px 5px 10px;
+}
+
+img{
+    width: 60%;
+}

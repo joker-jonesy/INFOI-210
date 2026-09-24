@@ -28,7 +28,15 @@ function mathSum (){
 
 
 document.querySelector("button").addEventListener("click", function() {
-    document.querySelector(".box").innerHTML=mathSum();
+    handleSubmit()
 })
 
+function handleSubmit(){
+    // event.preventDefault();
+    console.log(document.getElementById("cars").value);
+    document.querySelector(".box").innerHTML=mathSum();
+}
+
+
+// prompt(document.querySelector("button").innerText)
 
