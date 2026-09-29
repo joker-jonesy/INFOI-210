@@ -19,16 +19,25 @@
 //     console.log(sum);
 // }
 
+
 function mathSum (){
     // console.log(num)
-    const sum = Number(document.getElementById("number1").value) + Number(document.getElementById("number2").value);
+    const val1 =Number(document.getElementById("number1").value);
+    const val2 =Number(document.getElementById("number2").value);
+    const sum = val1 +val2
     return sum;
+}
+
+
+function mathSubtract(){
+    const val1 = Number(document.getElementById("number1").value);
 }
 
 
 
 document.querySelector("button").addEventListener("click", function() {
     handleSubmit()
+    console.log("add")
 })
 
 function handleSubmit(){

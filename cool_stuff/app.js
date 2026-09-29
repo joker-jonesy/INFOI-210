@@ -22,6 +22,8 @@ function displayPage(){
 document.querySelector('.left').addEventListener('click', function(){
     current_page--;
     displayPage();
+    console.log("")
+
 })
 
 document.querySelector('.right').addEventListener('click', function(){
