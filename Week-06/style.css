@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+}
+
+#cage{
+    position: relative;
+    height:500px;
+    width:500px;
+    border: 3px solid black;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+#lemon{
+    position: absolute;
+    height:80px;
+    width:80px;
+    transition: 0.5s;
+}
+
+#lemon img{
+    height:100%;
+}
+
+#target{
+    position: absolute;
+    height:80px;
+    width:80px;
+    box-sizing: border-box;
+    border-radius: 80px;
+    border: 10px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#target div {
+    height:30px;
+    width:30px;
+    border-radius: 30px;
+    background-color: red;
+}
