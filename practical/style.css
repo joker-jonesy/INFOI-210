@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+}
+
+html, body{
+    height:100vh;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container{
+    width:300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*align-items: center;*/
+}
+
+#container * {
+    margin-top: 10px;
+}
+
+
+button{
+    max-width:150px;
+}
+
+#result{
+    color: green;
+}
+
+.ele{
+    background-color: rebeccapurple;
+    height: 10px;
+    width: 15px;
+}
