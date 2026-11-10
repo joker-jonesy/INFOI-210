@@ -3,7 +3,7 @@ const wrapper = document.getElementById("wrapper");
 
 const conversions = {
     USD : {country :"USA", value: 1, symbol: "$"},
-    EURO :{country :"Europe", value: 0.89, symbol:"€"},
+    EURO :{country :["Europe"], value: 0.89, symbol:"€"},
     CDN : {country :"Canada", value: 1.4, symbol: "$"},
 }
 
